@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Http, HttpModule, RequestOptions, XHRBackend } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -30,7 +31,7 @@ const appRoutes: Routes = [
     component: AboutUsComponent
   },
   {
-    path: 'services',
+    path: 'service',
     component: ServicesComponent
   },
   {
@@ -97,7 +98,9 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes), AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyBocRBoaEQWWBx0T3F5BRERmBzQAnRP1sA'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,51 @@
+.web-designing-div{
+  .web-design-header{
+    text-align: center;
+    padding:15px;
+margin-bottom: 0px;
+  }
+  p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    word-spacing: 1px;
+    text-align: justify;
+    padding-top: 10px;
+  }
+  ul {
+    padding-left: 0px;
+    li {
+      list-style-type: none;
+      padding: 4px 0px;
+    }
+  }
+}
+.contact-bg {
+  background: lightblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  h4, p {
+    margin-bottom: 0px;
+    padding: 6px 20px;
+    margin: 0px auto;
+  }
+}
+.portfolio-bg {    background: green;
+  padding: 10px 20px;
+.portfolio-text {
+  font-size: 22px;
+  line-height: 28px;
+  color: #fff;
+}
+button {
+  background: #fff;
+  padding: 3px 15px;
+  color: red;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0px auto;
+  display: table;
+}
+}

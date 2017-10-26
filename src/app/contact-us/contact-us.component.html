@@ -1,11 +1,12 @@
-<div class="container-fluidv contact-us-div">
+<div class="container-fluid contact-us-div">
   <div class="row">
-    <div class="col-12 text-center contact-main-header">
+    <div class="col-12 col-sm-12 text-center contact-main-header">
       <h1>Web Design Cost Estimation</h1>
       <h5>We are excited that you decided to contact us for your website design cost estimation</h5>
-    </div>
-    <div class="col-6 contact-us-form text-center">
       <h3 class="contact-us-header">How Can We Help You</h3>
+    </div>
+    <div class="col-6 col-sm-6 contact-us-form text-center">
+
       <h5 class="contact-sub-header">Tell us about your business goals</h5>
       <p>We will get in touch with you soon</p>
       <div class="form-group">
@@ -33,5 +34,12 @@
         <p>Your information will remain secure with us</p>
       </div>
     </div>
+    <div class="col-6 col-sm-6 contact-us-form text-center">
+      <h5 class="map-view">Connect With us:</h5>
+      <div>
+          <agm-map [latitude]="lat" [longitude]="lng"></agm-map>
+      </div>
+    </div>
   </div>
+
 </div>

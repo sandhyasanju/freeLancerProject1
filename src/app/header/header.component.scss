@@ -14,11 +14,12 @@
     }
     .navbar-collapse{
         .navbar-nav{
-            .nav-item{
-                .nav-link:active,.nav-link:visited,.nav-link:hover{
-                    color: white !important;
-                    cursor: pointer;
-                }
+             .nav-item{
+            //     .nav-link:active,.nav-link:visited,.nav-link:hover{
+            //         color: white !important;
+            //         cursor: pointer;
+            //     }
+
                 .dropdown-menu{
                     border: 1px solid rgba(197,202,205,0.5);
                     .icon-padding {
@@ -38,7 +39,13 @@
                     border-bottom: 1px solid rgba(197,202,205,0.5);
                 }
 
+            }  .nav-item{
+              .nav-link.active{
+                color: white !important;
+                        cursor: pointer;
+              }
             }
+
         }
     }
 }

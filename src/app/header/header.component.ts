@@ -52,9 +52,9 @@ switch(Url.split('/')[1]){
   break;
   case 'portfolio' : this.index = 3;
   break;
-  case 'home' : this.index = 0;
+  case 'service' : this.index = 2;
   break;
-  default : this.index = 2;
+  default : this.index = 0;
 
 }
     this.prepareSideMenubarData();
